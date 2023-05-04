@@ -1,3 +1,3 @@
 # odin-recipes
 
-A repo showcasing my first HTML project
+My first webpage made during the foundations course on the Odin Project.
