@@ -28,13 +28,67 @@
             top: 200px;
             left: 80px;
         } 
+        .button {
+        border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
+.button1 {
+  background-color: rgb(250, 225, 196); 
+  color: black; 
+  border: 2px solid rgb(250, 225, 196);
+}
 
+.button1:hover {
+  background-color: white;
+  color: rgb(5, 0, 0);
+}
+
+.button {
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        margin: none;
+        padding: 16px 32px;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: none;
+    }
+.button1 {
+    background-color: orangered;
+    color: white;
+}
+.button1:hover {
+    background-color: orange;
+    color: black;
+}
+.button2 {
+    background-color: white;
+    color:black;
+    border: 2px solid orangered;
+
+}
+.button2:hover {
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+}
 </style>
+
 </head>
 
 <body>
-
+    
 
     <div class="parent">
         <img class="image1" src="https://www.colorhexa.com/fceebf.png"/>
@@ -51,8 +105,10 @@
  <style>
     .checked {
       color: orange;
+      
     }
     </style>
+<br>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
  <span class="fa fa-star checked"></span>
@@ -61,33 +117,33 @@
  <span class="fa fa-star"></span>
  <span class="fa fa-star"></span>
 
-    <p style="font-family:Arial, Helvetica, sans-serif; 
-    font: size 20px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 19px;">
     This easy pancake recipe doesn't require much thought early in the morning <br> 
     and the pancakes taste great!</p>
-    <p style="font-family:Arial, Helvetica, sans-serif; font-size:12px">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 17px">
         Recipe by: Hannah-Joy Simms</p>
-<div style="border-radius: 10px; background: bisque; padding: 10px; width: 200px; height: 20px;">
-Save</div> 
-    <hr>
+
+
+<hr>
     <img src="img/fluffypancakes" alt="A plate of pancakes"
      width="500px" height="400px">
 
 <pre>
 <div style="background: beige;
 padding: 30 px;
-margin: 1px;
-border-radius: 1px;
-width: 500px;">
-<h2 style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;">Recipe Description</h2>
+margin: 10px;
+border: 10px;
+width: 500px;
+height: 350px;">
+<h2 style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;">     Recipe Description</h2>
 <p style="font-family: Arial, Helvetica, sans-serif; font-size: 17px;">
-<strong>Prep Time:    Cook Time:    Total Time:</strong>
-10 minutes    10 minutes    20 minutes
+     <strong>Prep Time:    Cook Time:    Total Time:</strong>
+     10 minutes    10 minutes    20 minutes
 
-<strong>Servings:</strong>
-4
+     <strong>Servings:</strong>
+     4
 <br>
-<a href="#destination">Jump to Nutrition Facts</a></div>
+    <a href="#destination">Jump to Nutrition Facts</a></div>
 </pre>
         <hr>
         
@@ -138,21 +194,6 @@ width="500px" height="400px">
 These easy pancakes are best served with homemade
 <a href="blueberry-compote.html">blueberry compote.</a></p>
     
-<button type="button">
-<div style="background-color: orange;
-padding: 1px;
-margin: none;
-width: 300px;">
-<p style="font-size: 20px; 
-font-family:Arial, Helvetica, sans-serif; 
-text-align: center;
-color: white">
-I made it</p></div>
-</button>
-
-
-
-
 
 <hr>
 <p id="destination" style="font-size: 25px;"><strong>Nutrition Facts</strong>
@@ -166,9 +207,14 @@ Calories     Fat        Carbs     Protien
 <a href="img/nlpancakes">Show full nutrition label</a>
 </pre>
 
-
+<pre>
+  <button class="button button1">I made it</button>    <button class="button button2">Print</button>
+  </pre>
 <hr>
 
 <p><a href="index.html">Recipe Homepage</a></p>
+
+
+
 </body>
 </html>
